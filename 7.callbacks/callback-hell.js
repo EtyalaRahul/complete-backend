@@ -1,7 +1,7 @@
 const fs = require("fs");
 fs.readFile("input.txt", "utf-8", (err, data) => {
   if (err) {
-    console.log("Error while reading file : ",err);
+    console.log("Error while reading file : ", err);
     return;
   }
   const modifyFileData = data.toUpperCase();
